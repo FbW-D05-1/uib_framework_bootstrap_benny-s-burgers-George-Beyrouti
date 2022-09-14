@@ -34,7 +34,7 @@ header {
       }
 
       a {
-        background-color: map-get($colors, color1);
+        background-color: $purple-300 !important;
       }
     }
   }
@@ -50,12 +50,15 @@ header {
 
 #team {
   background-color: $purple-300; 
-
-  .card-body{
-    button {
-      border: 1px solid $purple-300;
-    }
-  }
+  
+  
+  div{ 
+    div{ 
+      div{ 
+        a {
+                  border: 2px solid $purple-300 !important;
+                }
+              }
 }
 
 
