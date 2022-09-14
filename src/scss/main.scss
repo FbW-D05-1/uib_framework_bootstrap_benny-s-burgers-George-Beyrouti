@@ -1,1 +1,42 @@
 // This is where you can import other stylesheets or write your scss code
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+$font-family-base: 'Love Ya Like A Sister', cursive;
+
+
+header
+{ background-image:url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: $font-family-base;
+  nav 
+  { div 
+    { 
+      a {
+    
+      color: $purple-300 !important;
+
+  }
+    }
+}
+
+  div {
+    div{
+     button{ 
+      background-color: $purple-300 !important;
+
+      }
+    }
+  }
+
+
+
+
+
+
+
+}

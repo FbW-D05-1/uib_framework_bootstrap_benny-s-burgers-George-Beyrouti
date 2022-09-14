@@ -20,6 +20,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "jest": "^28.1.0",
     "puppeteer": "^14.0.0"
   },
